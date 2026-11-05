@@ -57,11 +57,6 @@ My current research interests include **visual content creation, image and video
 {% endfor %}
 </ul>
 
-# 🎤 Talks
-{: #talks }
-
-- *June 18, 2026*: [**UniVidX: 视觉智能时代的一小步**](https://www.techbeat.net/talk-info?id=1055), [TechBeat](https://www.techbeat.net/grzytrkj?id=46556).
-
 # 🎓 Education
 {: #education }
 
@@ -95,5 +90,10 @@ My current research interests include **visual content creation, image and video
 {: #open-source }
 
 - [**Awesome-Relight**](https://github.com/houyuanchen111/Awesome-Relight) <a class="github-stars" href="https://github.com/houyuanchen111/Awesome-Relight/stargazers" aria-label="View GitHub stars for Awesome-Relight"><img src="https://img.shields.io/github/stars/houyuanchen111/Awesome-Relight?style=social&amp;label=Stars" alt="GitHub stars for Awesome-Relight" height="20" loading="lazy" onerror="this.parentElement.hidden = true;"></a>: A curated collection of relighting papers, datasets, benchmarks, demos, and tools.
+
+# 🎤 Talks
+{: #talks }
+
+- *June 18, 2026*: [**UniVidX: 视觉智能时代的一小步**](https://www.techbeat.net/talk-info?id=1055), [TechBeat](https://www.techbeat.net/grzytrkj?id=46556).
 
 <!-- Add internship dates/details and further services after details are confirmed. -->
