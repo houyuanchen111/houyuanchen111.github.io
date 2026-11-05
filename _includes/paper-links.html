@@ -1,0 +1,14 @@
+<div class="paper-links" markdown="0">
+  {% for link in paper.links %}
+  <span class="paper-resource">
+    <a href="{{ link.url | escape }}"><strong>{{ link.label | escape }}</strong></a>
+    {% if link.label == 'Code' and link.url contains 'https://github.com/' %}
+    {% assign github_repo = link.url | remove: 'https://github.com/' %}
+    <a class="github-stars" href="{{ link.url | escape }}/stargazers" aria-label="View GitHub stars for {{ paper.title | escape }}">
+      <img src="https://img.shields.io/github/stars/{{ github_repo }}?style=social&amp;label=Stars" alt="GitHub stars for {{ github_repo | escape }}" height="20" loading="lazy" onerror="this.parentElement.hidden = true;">
+    </a>
+    {% endif %}
+  </span>
+  {% unless forloop.last %}<span class="paper-link-separator" aria-hidden="true">|</span>{% endunless %}
+  {% endfor %}
+</div>

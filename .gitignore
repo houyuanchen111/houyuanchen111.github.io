@@ -1,0 +1,14 @@
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+/vendor/
