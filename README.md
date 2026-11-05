@@ -28,14 +28,14 @@ bundle exec jekyll build
 | --- | --- |
 | `_config.yml` | 姓名、头像、个人简介、邮箱和外部个人链接 |
 | `_pages/about.md` | 个人介绍、News、补充论文、开源资源 |
-| `_data/publications.yml` | 论文列表：作者、图片/视频、会议、摘要和资源链接 |
+| `_data/publications.yml` | 论文列表：作者、图片/GIF、会议、摘要和资源链接 |
 | `_data/navigation.yml` | 顶部章节导航 |
 | `assets/images/houyuan-chen.jpg` | 本人提供的主页照片 |
 | `assets/images/SOURCES.md` | 论文配图来源 |
-| `assets/videos/mt-forcing-kitten.mp4` | MT Forcing 的 15 轮编辑对比视频，完整内容以 2 倍速播放，时长 6 秒 |
-| `assets/videos/unividx.mp4` | 由本人提供的 PPT 优化计时后导出，约 13.7 秒，原速播放，1620 × 1080 分辨率 |
+| `assets/images/mt-forcing.gif` | MT Forcing 的完整 15 轮编辑对比，560 × 448、12 fps、6 秒，约 1.83 MiB |
+| `assets/images/unividx.gif` | UniVidX 完整演示，480 × 320、12 fps、约 13.7 秒，约 3.43 MiB |
 
-论文条目填写 `video`、`poster` 和 `video_label` 后会显示带封面的静音循环视频；未填写时沿用模板的静态配图。
+论文预览统一使用图片或循环 GIF，通过 `image`、`image_alt` 和可选的 `image_width` / `image_height` 配置；图片开启懒加载。`assets/videos/` 保留转换源文件，已从 Jekyll 构建输出中排除。
 
 已配置地点 Hong Kong、邮箱 houyuanchen111@gmail.com 和本人提供的 Google Scholar 主页。简介首段已补充 HKUST MMLab 博士一年级身份、导师 Anyi Rao / Huamin Qu、南京大学本科经历和导师 Xun Cao，以及 SenseTime（与 Lei Yang、Xiangyu Fan 合作）、BAAI 和清华 AIR（与 Hao Zhao 合作）的实习经历。具体专业、起止年份、实习工作内容、奖项和学术服务等待本人补充。尚未启用 Scholar 抓取，页面不会请求不存在的引用数据。
 

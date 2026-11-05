@@ -74,6 +74,7 @@ exclude:
   - README.md
   - TEMPLATE.md
   - assets/images/SOURCES.md
+  - assets/videos
   - run_server.sh
   - Gemfile.lock
   - google_scholar_crawler

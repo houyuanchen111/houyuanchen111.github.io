@@ -2,10 +2,9 @@
 - title: "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion"
   url: "https://arxiv.org/abs/2610.25404"
   venue: "arXiv 2026"
-  image: "assets/images/mt-forcing.png"
-  video: "assets/videos/mt-forcing-kitten.mp4"
-  poster: "assets/images/mt-forcing-poster.webp"
-  video_label: "Fifteen-turn image editing comparison: SenseNova-U1.5 on the left and MT Forcing on the right."
+  image: "assets/images/mt-forcing.gif"
+  image_width: 560
+  image_height: 448
   image_alt: "MT Forcing results comparing image quality and consistency across multiple editing turns"
   authors: "<strong>Houyuan Chen<sup>*</sup></strong>, Fanzhou Wang<sup>*</sup>, Xiangyu Fan, Zesong Qiu, Yukun Wei, Songlin Yang, Zhitao Yang, Lvmin Zhang, Pei Yang, Hao Zhao, Dahua Lin, Lei Yang, Anyi Rao"
   links:
@@ -33,12 +32,9 @@
 - title: "UniVidX: A Unified Multimodal Framework for Versatile Video Generation via Diffusion Priors"
   url: "https://arxiv.org/abs/2605.00658"
   venue: "SIGGRAPH 2026 · ACM TOG"
-  image: "assets/images/unividx.png"
-  video: "assets/videos/unividx.mp4"
-  poster: "assets/images/unividx-poster.jpg"
-  video_width: 1620
-  video_height: 1080
-  video_label: "UniVidX results demonstrating multimodal video generation, inverse rendering, relighting, and matting."
+  image: "assets/images/unividx.gif"
+  image_width: 480
+  image_height: 320
   image_alt: "UniVidX framework for conditional generation across visual modalities"
   authors: "<strong>Houyuan Chen</strong>, Hong Li, Xianghao Kong, Tianrui Zhu, Shaocong Xu, Weiqing Xiao, Yuwei Guo, Chongjie Ye, Lvmin Zhang, Hao Zhao, Anyi Rao"
   links:

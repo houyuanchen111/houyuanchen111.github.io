@@ -31,14 +31,7 @@ My current research interests include **visual content creation, image and video
   <div class="paper-box-image">
     <div>
       <div class="badge">{{ paper.venue }}</div>
-      {% if paper.video %}
-      <video class="paper-video" width="{{ paper.video_width | default: 1920 }}" height="{{ paper.video_height | default: 1536 }}" autoplay muted loop playsinline controls preload="metadata" poster="{{ paper.poster }}" aria-label="{{ paper.video_label | escape }}">
-        <source src="{{ paper.video }}" type="video/mp4">
-        <a href="{{ paper.video }}">Watch the video comparison.</a>
-      </video>
-      {% else %}
-      <a href="{{ paper.links[1].url | default: paper.url }}"><img src="{{ paper.image }}" alt="{{ paper.image_alt }}" width="100%" loading="lazy"></a>
-      {% endif %}
+      <a href="{{ paper.links[1].url | default: paper.url }}"><img class="paper-preview" src="{{ paper.image }}" alt="{{ paper.image_alt | escape }}" width="{{ paper.image_width | default: 400 }}"{% if paper.image_height %} height="{{ paper.image_height }}"{% endif %} loading="lazy" decoding="async"></a>
     </div>
   </div>
 <div class="paper-box-text" markdown="1">
