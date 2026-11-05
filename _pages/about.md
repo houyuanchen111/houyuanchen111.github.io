@@ -57,6 +57,11 @@ My current research interests include **visual content creation, image and video
 {% endfor %}
 </ul>
 
+# 🎤 Talks
+{: #talks }
+
+- *June 18, 2026*: [**UniVidX: 视觉智能时代的一小步**](https://www.techbeat.net/talk-info?id=1055), [TechBeat](https://www.techbeat.net/grzytrkj?id=46556).
+
 # 🎓 Education
 {: #education }
 

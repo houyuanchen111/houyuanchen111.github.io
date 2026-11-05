@@ -5,6 +5,8 @@ main:
     url: "#news"
   - title: "Selected Papers"
     url: "#selected-papers"
+  - title: "Talks"
+    url: "#talks"
   - title: "Education"
     url: "#education"
   - title: "Internships"
